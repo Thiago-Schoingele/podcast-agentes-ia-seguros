@@ -29,6 +29,18 @@ Subtítulo:
 
 O nome foi definido após dois promptings: um prompt inicial de geração de nomes e um prompt de correção para remover opções genéricas e chegar a uma opção mais direta e precisa.
 
+## Episódio 01
+
+**Título:** Por que agentes de IA precisam de segurança desde o início
+
+**Status:** roteiro e narração final validados.
+
+O episódio 01 foi criado com apoio do ChatGPT, otimizado para narração no ElevenLabs e validado após duas gerações de áudio. A primeira versão ficou longa demais, enquanto a versão final ficou com aproximadamente 4min27s e foi aprovada como áudio final.
+
+Arquivo final:
+
+`output/episodio-01-seguranca-em-agentes-de-ia.mp3`
+
 ## Estrutura do Repositório
 
 ```text
@@ -37,21 +49,25 @@ README.md
 prompts/
   01-prompt-nome-podcast.md
   01-1-prompt-correcao-nome-podcast.md
+  02-prompt-roteiro-episodio-01.md
+  02-1-prompt-ajuste-narracao-elevenlabs.md
+  02-2-prompt-otimizacao-roteiro-elevenlabs.md
+  02-3-prompt-reducao-roteiro-tempo-elevenlabs.md
 script/
-  .gitkeep
+  episodio-01-roteiro-final.md
 assets/
   .gitkeep
 output/
-  .gitkeep
+  episodio-01-seguranca-em-agentes-de-ia.mp3
 docs/
-  .gitkeep
+  validacao-audio-elevenlabs.md
 ```
 
 ## Status do Projeto
 
-Estrutura inicial criada e nome oficial do podcast definido.
+Estrutura inicial criada, nome oficial do podcast definido e episódio 01 com roteiro e narração final validados.
 
-O projeto ainda está em construção. O roteiro definitivo, a capa/imagem e o áudio final serão produzidos nas próximas etapas.
+O projeto ainda está em construção. A capa/imagem será produzida em uma próxima etapa.
 
 ## Aviso de Segurança
 
