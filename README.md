@@ -81,7 +81,7 @@ scripts/
 
 Estrutura inicial criada, nome oficial do podcast definido e episódio 01 com roteiro, narração final e capa validados.
 
-O projeto ainda está em construção. Etapas futuras podem incluir validações adicionais, organização final e configuração de CI em momento posterior.
+Projeto concluído para entrega educacional. A estrutura final inclui prompts documentados, roteiro, áudio, capa, validações e CI leve de verificação do repositório.
 
 ## Validação automatizada
 
