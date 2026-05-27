@@ -52,6 +52,9 @@ Nenhum arquivo sensível foi incluído nesta etapa.
 ```text
 README.md
 .gitignore
+.github/
+  workflows/
+    ci.yml
 prompts/
   01-prompt-nome-podcast.md
   01-1-prompt-correcao-nome-podcast.md
@@ -70,6 +73,8 @@ output/
 docs/
   validacao-audio-elevenlabs.md
   validacao-capa-podcast.md
+scripts/
+  validate_repository.py
 ```
 
 ## Status do Projeto
@@ -77,6 +82,25 @@ docs/
 Estrutura inicial criada, nome oficial do podcast definido e episódio 01 com roteiro, narração final e capa validados.
 
 O projeto ainda está em construção. Etapas futuras podem incluir validações adicionais, organização final e configuração de CI em momento posterior.
+
+## Validação automatizada
+
+Este repositório inclui uma GitHub Actions CI leve para validar a estrutura do projeto.
+
+A validação verifica:
+- presença dos arquivos obrigatórios;
+- existência da capa final e do áudio final;
+- ausência de arquivos sensíveis;
+- ausência de arquivos temporários ou desnecessários;
+- organização mínima esperada para entrega educacional.
+
+A CI não usa secrets, não chama APIs externas e não faz deploy.
+
+Validação local:
+
+```bash
+python scripts/validate_repository.py
+```
 
 ## Aviso de Segurança
 
