@@ -37,7 +37,7 @@ Foi criado o Prompt 02.3 para reduzir o roteiro, removendo repetições e encurt
 A segunda narração foi gerada a partir da versão reduzida do roteiro.
 
 Resultado técnico:
-- Arquivo final: `output/episodio-01-seguranca-em-agentes-de-ia.mp3`
+- Arquivo final: output/episodio-01-seguranca-em-agentes-de-ia.mp3
 - Formato: MP3
 - Duração aproximada: 4min27s
 - Bitrate: 128 kbps

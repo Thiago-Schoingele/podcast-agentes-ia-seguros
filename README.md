@@ -33,13 +33,19 @@ O nome foi definido após dois promptings: um prompt inicial de geração de nom
 
 **Título:** Por que agentes de IA precisam de segurança desde o início
 
-**Status:** roteiro e narração final validados.
+**Status:** roteiro, narração final e capa validados.
 
 O episódio 01 foi criado com apoio do ChatGPT, otimizado para narração no ElevenLabs e validado após duas gerações de áudio. A primeira versão ficou longa demais, enquanto a versão final ficou com aproximadamente 4min27s e foi aprovada como áudio final.
 
-Arquivo final:
+A capa foi criada com dois promptings: um prompt inicial de composição visual e um prompt de correção para ajustar a paleta dark tech magenta/violeta.
 
-`output/episodio-01-seguranca-em-agentes-de-ia.mp3`
+Arquivos finais:
+
+- [Roteiro final](script/episodio-01-roteiro-final.md)
+- [Áudio final](output/episodio-01-seguranca-em-agentes-de-ia.mp3)
+- [Capa final](assets/capa-podcast-seguranca-em-agentes-de-ia.png)
+
+Nenhum arquivo sensível foi incluído nesta etapa.
 
 ## Estrutura do Repositório
 
@@ -53,21 +59,24 @@ prompts/
   02-1-prompt-ajuste-narracao-elevenlabs.md
   02-2-prompt-otimizacao-roteiro-elevenlabs.md
   02-3-prompt-reducao-roteiro-tempo-elevenlabs.md
+  03-prompt-capa-podcast.md
+  03-1-prompt-correcao-capa-paleta-fiap-sentrya.md
 script/
   episodio-01-roteiro-final.md
 assets/
-  .gitkeep
+  capa-podcast-seguranca-em-agentes-de-ia.png
 output/
   episodio-01-seguranca-em-agentes-de-ia.mp3
 docs/
   validacao-audio-elevenlabs.md
+  validacao-capa-podcast.md
 ```
 
 ## Status do Projeto
 
-Estrutura inicial criada, nome oficial do podcast definido e episódio 01 com roteiro e narração final validados.
+Estrutura inicial criada, nome oficial do podcast definido e episódio 01 com roteiro, narração final e capa validados.
 
-O projeto ainda está em construção. A capa/imagem será produzida em uma próxima etapa.
+O projeto ainda está em construção. Etapas futuras podem incluir validações adicionais, organização final e configuração de CI em momento posterior.
 
 ## Aviso de Segurança
 
