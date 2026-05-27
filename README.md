@@ -17,13 +17,26 @@ O desafio original utiliza MidJourney e CapCut em partes do fluxo de criação. 
 
 Esta adaptação está documentada para deixar claro quais ferramentas estão planejadas para este projeto, sem afirmar o uso de ferramentas que não foram utilizadas.
 
+## Nome do Podcast
+
+Nome definido:
+
+**Segurança em Agentes de IA**
+
+Subtítulo:
+
+**LLMs, APIs e Automações Seguras na Prática**
+
+O nome foi definido após dois promptings: um prompt inicial de geração de nomes e um prompt de correção para remover opções genéricas e chegar a uma opção mais direta e precisa.
+
 ## Estrutura do Repositório
 
 ```text
 README.md
 .gitignore
 prompts/
-  .gitkeep
+  01-prompt-nome-podcast.md
+  01-1-prompt-correcao-nome-podcast.md
 script/
   .gitkeep
 assets/
@@ -36,9 +49,9 @@ docs/
 
 ## Status do Projeto
 
-Estrutura inicial criada.
+Estrutura inicial criada e nome oficial do podcast definido.
 
-O projeto ainda está em construção. Os prompts, o roteiro definitivo, a capa/imagem e o áudio final serão produzidos nas próximas etapas.
+O projeto ainda está em construção. O roteiro definitivo, a capa/imagem e o áudio final serão produzidos nas próximas etapas.
 
 ## Aviso de Segurança
 
